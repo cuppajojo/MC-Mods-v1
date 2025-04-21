@@ -12,6 +12,8 @@ public class ModItems {
     //public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item CUPPAJOJO_SMILE = registerItem("cuppajojo_smile", new Item(new Item.Settings()));
+    public static final Item CUPPAJOJO_SAD = registerItem("cuppajojo_sad", new Item(new Item.Settings()));
     public static final Item BB_HUNTER = registerItem("bb_hunter", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -24,7 +26,8 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(PINK_GARNET);
             fabricItemGroupEntries.add(RAW_PINK_GARNET);
-
+            fabricItemGroupEntries.add(CUPPAJOJO_SMILE);
+            fabricItemGroupEntries.add(CUPPAJOJO_SAD);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(BB_HUNTER);
