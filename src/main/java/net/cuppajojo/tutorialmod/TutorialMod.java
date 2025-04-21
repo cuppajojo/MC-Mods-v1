@@ -1,5 +1,6 @@
 package net.cuppajojo.tutorialmod;
 
+import net.cuppajojo.tutorialmod.block.ModBlocks;
 import net.cuppajojo.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
