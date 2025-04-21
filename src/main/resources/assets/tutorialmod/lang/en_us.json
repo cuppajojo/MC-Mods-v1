@@ -8,5 +8,9 @@
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.tutorialmod.cuppajojo_sad_block": "CuppaJoJo Sad Block",
-  "block.tutorialmod.cuppajojo_smile_block": "CuppaJoJo Smile Block"
+  "block.tutorialmod.cuppajojo_smile_block": "CuppaJoJo Smile Block",
+
+  "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+  "itemgroup.tutorialmod.jojo_mod_group": "CuppaJoJo Mods"
 }
