@@ -24,11 +24,11 @@ public class ModBlocks {
                     .requiresTool()));
 
     public static final Block CUPPAJOJO_SAD_BLOCK = registerBlock("cuppajojo_sad_block",
-            new Block(AbstractBlock.Settings.create().strength(1f)
+            new Block(AbstractBlock.Settings.create().strength(0)
                     .sounds(BlockSoundGroup.HONEY)));
 
     public static final Block CUPPAJOJO_SMILE_BLOCK = registerBlock("cuppajojo_smile_block",
-            new Block(AbstractBlock.Settings.create().strength(1f)
+            new Block(AbstractBlock.Settings.create().strength(0)
                     .sounds(BlockSoundGroup.HONEY)));
 
     private static Block registerBlock(String name, Block block) {
