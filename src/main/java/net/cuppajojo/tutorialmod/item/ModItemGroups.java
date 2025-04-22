@@ -29,6 +29,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.PINK_GARNET_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+
                     }).build());
 
 public static final ItemGroup JOJO_MOD_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -39,6 +43,8 @@ public static final ItemGroup JOJO_MOD_GROUP = Registry.register(Registries.ITEM
                         entries.add(ModBlocks.CUPPAJOJO_SMILE_BLOCK);
                         entries.add(ModBlocks.CUPPAJOJO_SAD_BLOCK);
                         entries.add(ModItems.BB_HUNTER);
+                        entries.add(ModItems.CUPPAJOJO_SMILE);
+                        entries.add(ModItems.CUPPAJOJO_SAD);
 
                     }).build());
 
