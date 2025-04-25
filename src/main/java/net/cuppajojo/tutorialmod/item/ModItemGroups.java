@@ -47,6 +47,7 @@ public static final ItemGroup JOJO_MOD_GROUP = Registry.register(Registries.ITEM
                         entries.add(ModItems.CUPPAJOJO_SAD);
                         entries.add(ModItems.CHISEL);
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModItems.CAULIFLOWER);
 
                     }).build());
 
