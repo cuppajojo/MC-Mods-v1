@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cuppajojo_sad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:cuppajojo_sad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cuppajojo_sad_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cuppajojo_sad"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cuppajojo_sad_block"
+    ]
+  }
+}
