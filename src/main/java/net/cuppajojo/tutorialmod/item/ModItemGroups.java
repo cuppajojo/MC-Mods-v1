@@ -48,6 +48,7 @@ public static final ItemGroup JOJO_MOD_GROUP = Registry.register(Registries.ITEM
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.STARLIGHT_ASHES);
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModItems.CAULIFLOWER);
 
                     }).build());
 
